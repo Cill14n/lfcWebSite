@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liverpool Football Club</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <!-- Header section -->
+<header>
+  <div class="logo">
+    <a href="./lfcPg1.html">
+      <img src="liverpool-logo.png" >
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="./lfcPg2.html">News</a></li>
+      <li><a href="./lfcPg3.html">Team</a></li>
+      <li><a href="./lfcPg4.html">Hall of legends</a></li>
+	   <li><a href="./lfcPg5.html">History</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- QUIZ -->
+  <form id="quiz-form" onsubmit="return false;">
+  <h3>Question 1:</h3>
+  <p>When was Liverpool football club founded?</p>
+  <label>
+    <input type="radio" name="q1" value="a">a) 1892 <!-- correct -->
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q1" value="b">b) 1945
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q1" value="c">c) 2003
+  </label>
+  <hr>
+  <h3>Question 2:</h3>
+  <p>Who is Liverpools current manager?</p>
+  <label>
+    <input type="radio" name="q2" value="a">a) Sir. Alex Fergusson
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q2" value="b">b) Jurgen Klopp <!-- correct -->
+  </label>
+  <br>
+   <label>
+    <input type="radio" name="q2" value="c">c) John Terry
+  </label>
+  <hr>
+    <h3>Question 3:</h3>
+  <p>During the famous Champions League night against barcelona in 2019 at anfield, what was the halftime substitution that changed the whole tie</p>
+  <label>
+    <input type="radio" name="q3" value="a">a) Salah off - Sturridge on
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q3" value="b">b) Trent off - Origi on
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q3" value="c">c) Robertson off - Wijnaldum on <!-- correct -->
+  </label>
+  <hr>
+   <h3>Question 4:</h3>
+  <p>What is Liverpool football clubs motto?</p>
+  <label>
+    <input type="radio" name="q4" value="a">a) Fight and win
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q4" value="b">b) You'll never walk alone <!-- correct -->
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q4" value="c">c) Losing is ok
+  </label>
+  <hr>
+
+  <h3>Question 5:</h3>
+  <p>Who scored Liverpools first ever goal?</p>
+  <label>
+    <input type="radio" name="q5" value="a">a) Jamie Carragher 
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q5" value="b">b) Malcom McVeen <!-- correct -->
+  </label>
+  <br>
+  <label>
+    <input type="radio" name="q5" value="c">c) Pat Grimsby
+  </label>
+  <hr>
+
+<h3>Question 6:</h3>
+<p>Which team did Liverpool beat in the 2005 Champions League final to win their fifth European Cup/Champions League?</p>
+<label>
+  <input type="radio" name="q6" value="a">a) AC Milan <!-- correct -->
+</label>
+<br>
+<label>
+  <input type="radio" name="q6" value="b">b) Real Madrid
+</label>
+<br>
+<label>
+  <input type="radio" name="q6" value="c">c) Barcelona
+</label>
+<hr>
+<h3>Question 7:</h3>
+<p>In what year did Fernando Torres win the PFA player of the year?</p>
+<label>
+  <input type="radio" name="q7" value="a">a) 2009<!-- correct -->
+</label>
+<br>
+<label>
+  <input type="radio" name="q7" value="b">b) 2015
+</label>
+<br>
+<label>
+  <input type="radio" name="q7" value="c">c) 2007
+</label>
+<hr>
+<h3>Question 8:</h3>
+<p>Who is Liverpool's all-time top scorer?</p>
+<label>
+  <input type="radio" name="q8" value="a">a) Kenny Dalglish
+</label>
+<br>
+<label>
+  <input type="radio" name="q8" value="b">b) Ian Rush <!-- correct -->
+</label>
+<br>
+<label>
+  <input type="radio" name="q8" value="c">c) Robbie Fowler
+</label>
+<hr>
+<h3>Question 9:</h3>
+<p>What was the score when Liverpool beat Tottenham in the 2019 Champions League Final?</p>
+<label>
+  <input type="radio" name="q9" value="a">a) 3-1
+</label>
+<br>
+<label>
+  <input type="radio" name="q9" value="b">b) 2-1
+</label>
+<br>
+<label>
+  <input type="radio" name="q9" value="c">c) 2-0 <!-- correct -->
+</label>
+<hr>
+<h3>Question 10:</h3>
+<p>What is Liverpool's nickname?</p>
+<label>
+  <input type="radio" name="q10" value="a">a) The Blues
+</label>
+<br>
+<label>
+  <input type="radio" name="q10" value="b">b) The Red Devils
+</label>
+<br>
+<label>
+  <input type="radio" name="q10" value="c">c) The Reds <!-- correct -->
+</label>
+<hr>
+<label>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+var quizForm = document.getElementById("quiz-form");
+quizForm.addEventListener("submit", function() {
+ 
+  var answers = [
+    quizForm.q1.value,
+    quizForm.q2.value,
+	quizForm.q3.value,
+	quizForm.q4.value,
+	quizForm.q5.value,
+	quizForm.q6.value,
+	quizForm.q7.value,
+	quizForm.q8.value,
+	quizForm.q9.value,
+	quizForm.q10.value,
+    
+  ];
+
+  // Calculate the score
+  var correctAnswers = ["a", "b", "c", "b","b","a","a","b","c","c"];
+  var score = 0;
+  for (var i = 0; i < correctAnswers.length; i++) {
+    if (answers[i] === correctAnswers[i]) {
+      score++;
+    }
+  }
+
+  
+  // Display the percentage
+	var percentage = (score / correctAnswers.length) * 100;
+
+	if (percentage >= 80) {
+			alert("Congratulations! You scored " + percentage + "%. You really know your Liverpool trivia!");
+	} else {
+			alert("You scored " + percentage + "%, Nice try! All nessecary info is spread through out our website. Feel free to come back and try again!");
+	}
+});
+</script>
+
+</body>
+  <!-- Footer section -->
+   <footer>
+    <div class="social-media">
+      <a href="https://www.facebook.com/LiverpoolFC/"><img src="facebook.jpg"></a>
+      <a href="https://twitter.com/LFC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.jpg" ></a>
+      <a href="https://www.instagram.com/liverpoolfc/?hl=en"><img src="instagram.jpg" ></a>
+    </div>
+    <div class="top">
+      
+      <ul>
+        <li><a href="#">back to top</a></li>  
+      </ul>
+    </div>
+  </footer>
+</html>

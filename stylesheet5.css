@@ -1,0 +1,137 @@
+/* Header styles */
+header {
+	font-family: Helvetica, Sans-Serif;
+  background-color: #C8102E;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #C8102E;
+}
+
+
+/*body*/
+
+body{
+	background-color: #D4A748;
+}
+.intro img{
+	width: 60%;
+	
+}
+
+.infobox {
+
+  border: 9px solid red;
+  width: 400px;
+  float: right;
+  color: black;
+  font:gold;
+}
+
+.honors li{
+	float: left;
+}
+
+
+
+.moments {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.moments h1 {
+  width: 100%;
+    font-family: Garamond, serif;
+  font-size: 150 px;
+  color:red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.moments p {
+  flex-basis: 50%;
+  margin-right: 20px;
+}
+
+.moments iframe {
+  flex-basis: 45%;
+  height: 315px;
+}
+
+.vid{
+	width: 20%;
+	float: right;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; 
+  float: right;
+  bottom:0;
+  width:100%;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media img {
+  width: 30px;
+}
+
+.top ul {
+  list-style: none;
+  display: flex;
+}
+
+.top li {
+  margin-left: 20px;
+}
+
+.top a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.top a:hover {
+  color: #C8102E;
+}

@@ -1,0 +1,121 @@
+/* Header styles */
+header {
+	font-family: Helvetica, Sans-Serif;
+  background-color: #C8102E;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1{
+	text-align: center;
+}
+
+h2{
+	font-size: 20 px;
+}
+.logo img {
+  width: 100px;
+}
+
+.infobox {
+  width: 400px;
+  float: right;
+  color: gold;
+  font:gold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #C8102E;
+}
+
+body {
+  background-color: black;
+}
+
+/* headings */
+h1, h2 {
+  color: gold;
+  font-family: Times New Roman, serif;
+}
+
+/* player pictures */
+.player img {
+  margin-right: 20px;
+  border: 3px solid gold;
+  width: 250px;
+  height: 250px;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+}
+
+.vid{
+	
+	border: 3px solid gold;
+}
+
+/* player stats */
+ul {
+  color: gold;
+  font-family: 'Georgia', serif;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media img {
+  width: 30px;
+}
+
+.top ul {
+  list-style: none;
+  display: flex;
+}
+
+.top li {
+  margin-left: 20px;
+}
+
+.top a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.top a:hover {
+  color: #C8102E;
+}
